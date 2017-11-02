@@ -14,9 +14,15 @@ public class Test {
         }
         System.out.println();
         Insertion insertion = new Insertion();
-        int[] ints1 = insertion.sorts(x);
+        int[] ints1 = insertion.sort(x);
         for (int i = 0; i < ints1.length; i++) {
             System.out.print(ints1[i] + " ");
+        }
+        System.out.println();
+        Shell shell = new Shell();
+        int[] ints2 = shell.sort(x);
+        for (int i = 0; i < ints2.length; i++) {
+            System.out.print(ints2[i] + " ");
         }
     }
 }

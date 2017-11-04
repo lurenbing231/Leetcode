@@ -2,6 +2,7 @@ package Sort;
 
 /**
  * Created by zhaoliang on 2017/11/2.
+ * 希尔排序
  */
 public class Shell {
     public static int[] sort(int[] s) {

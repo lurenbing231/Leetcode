@@ -3,6 +3,7 @@ package Sort;
 
 /**
  * Created by zhaoliang on 2017/10/26.
+ * 插入排序
  */
 public class Insertion {
     public static int[] sort(int[] s){

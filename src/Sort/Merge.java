@@ -2,6 +2,7 @@ package Sort;
 
 /**
  * Created by zhaoliang on 2017/11/2.
+ * 自顶向下归并排序
  */
 public class Merge {
     private static int[] aux;
@@ -17,6 +18,20 @@ public class Merge {
             else if (aux[j] < aux[i]) a[k] = aux[j++];
             else a[k] = aux[i++];
         }
+    }
+
+    private static void merge_2(int[] a, int lo, int mid, int hi) {
+        for (int i = lo; i <= mid; i++) {
+            aux[i] = a[i];
+        }
+
+        for (int j = mid + 1; j <= hi; j++)
+            aux[j] = a[hi - j + mid + 1];
+
+        int i = lo, j = hi;
+        for (int k = lo; k <= hi; k++)
+            if (aux[j] < aux[i]) a[k] = aux[j--];
+            else a[k] = aux[i++];
     }
 
     public static int[] sort(int[] a) {

@@ -1,4 +1,4 @@
-package Sort;
+package AlgorithmsBook.Sort;
 
 /**
  * Created by zhaoliang on 2017/10/20.

@@ -1,7 +1,5 @@
-package Sort;
+package AlgorithmsBook.Sort;
 
-
-import org.junit.*;
 
 /**
  * Created by zhaoliang on 2017/11/2.

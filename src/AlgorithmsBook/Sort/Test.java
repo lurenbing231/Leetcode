@@ -63,5 +63,13 @@ public class Test {
             System.out.print(ints6[i] + " ");
         }
         System.out.println();
+        //堆排序
+        System.out.println("堆排序");
+        Heapsort heapsort = new Heapsort();
+        int[] ints7 = heapsort.sort(x);
+        for (int i = 0; i < ints7.length; i++) {
+            System.out.print(ints7[i] + " ");
+        }
+        System.out.println();
     }
 }

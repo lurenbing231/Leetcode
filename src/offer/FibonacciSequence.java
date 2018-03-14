@@ -2,6 +2,8 @@ package offer;
 
 import org.junit.Test;
 
+import java.io.IOException;
+
 /**
  * Created by zhaoliang on 2017/11/16.
  */
@@ -27,6 +29,26 @@ public class FibonacciSequence {
     }
     @Test
     public void test(){
-        System.out.println(Fibonacci(2));
+        try{
+            throw new Exception("1");
+        }catch (IOException e){
+            try {
+                throw new Exception("2");
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
+        }catch (Exception e) {
+            try {
+                throw new Exception("3");
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
+        }finally {
+            try {
+                throw new Exception("4");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

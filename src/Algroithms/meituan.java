@@ -1,4 +1,4 @@
-package offer;
+package Algroithms;
 
 import java.util.Scanner;
 

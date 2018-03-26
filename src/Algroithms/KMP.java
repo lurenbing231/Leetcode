@@ -12,8 +12,8 @@ public class KMP {
         char[] mat = s.toCharArray();
         int[] next = getNext(mat);
         ArrayList<Integer> res = getKmp(arr, mat, next);
-        for (int i = 0; i < res.size(); i++) {
-            System.out.print(" " + res.get(i));
+        for (Integer re : res) {
+            System.out.print(" " + re);
         }
     }
 
@@ -46,7 +46,7 @@ public class KMP {
             }
             if (j + 1 == mat.length) {
                 res.add(i - mat.length + 1);
-                j = 0;
+                j = -1;
             }
             i++;
         }

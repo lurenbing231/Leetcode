@@ -1,4 +1,4 @@
-package Algroithms;
+package chunzhao.jiritoutiao;
 
 import java.util.ArrayList;
 import java.util.List;

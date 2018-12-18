@@ -1,4 +1,4 @@
-package Algroithms;
+package chunzhao.meituan;
 
 import java.util.Scanner;
 

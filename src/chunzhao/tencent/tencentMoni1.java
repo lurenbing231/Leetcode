@@ -1,4 +1,4 @@
-package Algroithms;
+package chunzhao.tencent;
 
 import java.util.Scanner;
 

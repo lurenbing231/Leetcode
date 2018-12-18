@@ -1,9 +1,11 @@
 package chunzhao.test;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class biancheng3 {
     public static void main(String[] args) {
+        HashMap<String, Integer> s = new HashMap<>();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int P1 = sc.nextInt();

@@ -1,4 +1,4 @@
-package Algroithms;
+package chunzhao.jiritoutiao;
 
 import java.util.Map;
 import java.util.Scanner;

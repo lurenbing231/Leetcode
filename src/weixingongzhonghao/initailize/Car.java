@@ -1,6 +1,6 @@
 package weixingongzhonghao.initailize;
 
-class Car {
+public class Car {
     Car() {//无参构造器（默认构造器）
         this("BMW");//调用构造器Car(String name)
         System.out.println("Car");

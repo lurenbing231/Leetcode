@@ -1,4 +1,4 @@
-package Algroithms;
+package leetcode;
 
 import org.junit.Test;
 

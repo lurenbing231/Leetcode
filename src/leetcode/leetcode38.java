@@ -1,4 +1,4 @@
-package Algroithms;
+package leetcode;
 
 public class leetcode38 {
     public String countAndSay(int n) {

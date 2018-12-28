@@ -3,7 +3,7 @@ package weixingongzhonghao.fuyonglei;
 import org.junit.Test;
 
 public class BMWCar extends Car {
-    @Override public void make(int i) {
+    public void make(int i) {
         System.out.println("ÖÆÔìBMWÆû³µ");
     }
 

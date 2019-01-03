@@ -1,4 +1,4 @@
-package InterviewGolden;
+package chunzhao.InterviewGolden;
 
 
 public class Same {

@@ -1,4 +1,4 @@
-package LongestCommonPrefix;
+package leetcode.LongestCommonPrefix;
 
 /**
  * Created by zhaoliang on 2017/10/21.

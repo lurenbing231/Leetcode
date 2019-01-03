@@ -1,4 +1,4 @@
-package InterviewGolden;
+package chunzhao.InterviewGolden;
 /*
 给定一个string iniString，请返回一个bool值,True代表所有字符全都不同，False代表存在相同的字符。
 保证字符串中的字符为ASCII字符。字符串的长度小于等于3000。
